@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "label": "Antrag genehmigen?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_09v6nhu",
+        "columns": null
+      },
+      "id": "Field_1y28xsf",
+      "key": "textfield_y6hthn"
+    },
+    {
+      "label": "Antrag genehmigen?",
+      "values": [
+        {
+          "label": "Ja",
+          "value": "ja"
+        },
+        {
+          "label": "Nein",
+          "value": "nein"
+        },
+        {
+          "label": "Rückfrage",
+          "value": "frage"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_13jomkv",
+        "columns": null
+      },
+      "id": "Field_1ehpvfk",
+      "key": "radio_xcddpkg",
+      "validate": {
+        "required": false
+      },
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "Form_19ed99l",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.29.0"
+  },
+  "schemaVersion": 17
+}

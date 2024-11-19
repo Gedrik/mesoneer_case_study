@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "label": "Titel",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1s25zny",
+        "columns": null
+      },
+      "id": "Field_02wk621",
+      "key": "titel",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Beschreibung",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_056zaek",
+        "columns": null
+      },
+      "id": "Field_0559hxw",
+      "key": "beschreibung",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Erfasser",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0wndidn",
+        "columns": null
+      },
+      "id": "Field_0qrdf8i",
+      "key": "textfield_w1xj69",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Personalnummer",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_13kibdi",
+        "columns": null
+      },
+      "id": "Field_0p3pqu5",
+      "key": "id",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Datum",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0ndz2yc",
+        "columns": null
+      },
+      "id": "Field_0yqkudj",
+      "key": "datum",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Kommentar",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_13pznj6",
+        "columns": null
+      },
+      "id": "Field_0pe8yxi",
+      "key": "kommentar"
+    },
+    {
+      "label": "Status",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0u7qfgu",
+        "columns": null
+      },
+      "id": "Field_1nxvzw3",
+      "key": "statusField",
+      "readonly": true,
+      "defaultValue": "Offen"
+    },
+    {
+      "label": "Status",
+      "values": [
+        {
+          "label": "in Prüfung",
+          "value": "value"
+        },
+        {
+          "label": "offen",
+          "value": "Unklar"
+        },
+        {
+          "label": "genehmigt",
+          "value": "Ja"
+        },
+        {
+          "label": "abgelehnt",
+          "value": "Nein"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0q1dqwo",
+        "columns": null
+      },
+      "id": "Field_191hs37",
+      "key": "status",
+      "readonly": false,
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "value",
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "Form_1b7oast",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.29.0"
+  },
+  "schemaVersion": 17
+}
